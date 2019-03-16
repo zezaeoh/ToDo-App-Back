@@ -1,0 +1,28 @@
+{
+  "name": "todo-app-back",
+  "version": "1.0.0",
+  "description": "simple todo app",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zezaeoh/ToDo-App-Back.git"
+  },
+  "keywords": [
+    "todo-app"
+  ],
+  "author": "zezaeoh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zezaeoh/ToDo-App-Back/issues"
+  },
+  "homepage": "https://github.com/zezaeoh/ToDo-App-Back#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.19"
+  }
+}
